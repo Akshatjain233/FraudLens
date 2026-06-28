@@ -1,0 +1,24 @@
+# Python build/cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE configurations
+.idea/
+.vscode/
+.gemini/
+
+# Large dataset files (due to GitHub 100MB file size limit)
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+
+# Local settings / environment secrets
+.env
